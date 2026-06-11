@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
